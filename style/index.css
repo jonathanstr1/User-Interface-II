@@ -1,1 +1,97 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;500&family=Questrial&display=swap');
+* {
+	/*border: 1px solid black; */
+  	overflow:hidden;
+  	padding:0;
+  	margin:0;
+  	font-family: fjalla one;
+  	
+}
+h1 {
+	text-align: center;
+	font-size: 3vw;
+	margin: 2vw;
+	margin-top: 4vw;
+}
+h2 {
+	text-align: center;
+	font-size: 2.4vw;
+	color: maroon;
+	margin-top: 3vw;
+}
+
+.flex-nav {
+	display: flex;
+	align-items: stretch;
+	flex-direction: ;
+	margin-left: 33vw;
+	margin-right: 33vw;
+	max-height: 5vw;
+	min-height: 1vw;
+
+}
+.flex-item {
+	font-size: 1.2vw;
+	width: 160px;
+	text-decoration:none;
+	text-align: center;
+	padding: 12px;
+	height: 20px;
+	align-items: center;	
+	background: darkgrey;
+	flex: 3;
+	transition: .3s;
+}
+.flex-item a {
+	color: white;
+	text-align: center;
+}
+.flex-item :hover {
+	color: darkgrey	;
+	background: white;
+}
+.flex-item a {
+	text-decoration:  none;
+	padding: 12px;
+	max-height: 5vw;
+	min-height: 2vw;
+}
+
+.descript {
+	font-family: Questrial;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 4vw;
+	margin-bottom: 4vw;
+}
+.main-img {
+	max-height:400px;
+	width: 100vw;
+}
+.flex-gal {
+	display: flex;
+
+}
+.flex-gal-item {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-anchor: center;
+	align-items: baseline;
+}
+.flex-gal-text {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-align: : center;
+	justify-content: center;
+	align-items: baseline;
+}
+
+
+
+
+
+
+
