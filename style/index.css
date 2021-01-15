@@ -1,7 +1,7 @@
 /* Add CSS styling here */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;500&family=Questrial&display=swap');
 * {
-	border: 1px solid black;
+	/*border: 1px solid black; */
   	overflow:hidden;
   	padding:0;
   	margin:0;
@@ -73,8 +73,20 @@ h2 {
 	display: flex;
 
 }
-.flex-gal-items {
-	
+.flex-gal-item {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-anchor: center;
+	align-items: baseline;
+}
+.flex-gal-text {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-align: : center;
+	justify-content: center;
+	align-items: baseline;
 }
 
 
