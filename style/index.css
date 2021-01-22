@@ -1,5 +1,26 @@
 /* Add CSS styling here */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;500&family=Questrial&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 * {
 	/*border: 1px solid black; */
   	overflow:hidden;
@@ -13,51 +34,58 @@ h1 {
 	font-size: 3vw;
 	margin: 2vw;
 	margin-top: 4vw;
+	font-family: Questrial;
 }
 h2 {
 	text-align: center;
 	font-size: 2.4vw;
 	color: maroon;
 	margin-top: 3vw;
+	font-family: Questrial;
 	
 }
 
 .flex-nav {
 	display: flex;
 	align-items: stretch;
-	flex-direction: ;
-	margin-left: 33vw;
-	margin-right: 33vw;
+	flex-direction:row ;
+	margin-left: 20vw;
+	margin-right: 28vw;
 	max-height: 5vw;
 	min-height: 1vw;
+	
+	justify-content: center;
+
 
 }
 .flex-item {
 	font-size: 1.2vw;
-	width: 160px;
+	font-family: Questrial;
 	text-decoration:none;
-	text-align: center;
+	text-align: justify;
 	padding: 12px;
+	
 	height: 100%;
 	align-items: center;	
 	background: darkgrey;
 	flex: 3;
-	transition: .3s;
+	transition: .8s;
+	
+	
 }
 .flex-item a {
 	color: white;
-	text-align: center;
+	text-align: justify;
+	text-decoration:  none;
+	padding: 13px;
+	height: 100%;
+	
 }
-.flex-item :hover {
+.flex-item a:hover {
 	color: darkgrey	;
 	background: white;
 }
-.flex-item a {
-	text-decoration:  none;
-	padding: 12px;
-	max-height: 5vw;
-	min-height: 2vw;
-}
+
 
 .descript {
 	font-family: Questrial;
@@ -85,11 +113,48 @@ h2 {
 	height: 50vw;
 	width: 20vw;
 	margin: 2px;
-	text-align: : center;
+	text-align:  center;
 	justify-content: center;
 	align-items: baseline;
+	padding-top: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: Questrial;
 }
+@media (max-width:800px){
+	h1 {
+		justify-content: center;
+		margin-left: 100px;
+	}
+	.flex-nav {
+		display:flex;
+		flex-direction: column;
+		margin-left: 40vw;
+		margin-right: 42vw;
+		max-height: 20vw;
+		min-height: 1vw;
+		
+	}
+	.flex-gal {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	.flex-gal-item {
+		height: 80vw;
+		width: 49vw;
+		margin: 2px;
+		text-anchor: center;
+		align-items: baseline;
+	}
+	.flex-gal-text {
+		display: inline-block;
+		width: 100%;
+	
+	}
 
+}
 
 
 
